@@ -1,0 +1,70 @@
+//entity, campos, tipos
+//Baseados nos caseId: 251140292, 251393979, 252167596, 252176774, 252278806
+
+[
+    {
+        "entity": "case",
+        "field": "origin",
+        "type": "string"
+    },
+    {
+        "entity": "case",
+        "field": "site_id",
+        "type": "string"
+    },
+    {
+        "entity": "case",
+        "field": "status",
+        "type": "string"
+    },
+    {
+        "entity": "case",
+        "field": "user_subject",
+        "type": "string"
+    },
+    {
+        "entity": "case",
+        "field": "parent_id",
+        "type": ""
+    },
+    {
+        "entity": "case",
+        "field": "channel",
+        "type": "string"
+    },
+    {
+        "entity": "case",
+        "field": "current_channel",
+        "type": "string"
+    },
+    {
+        "entity": "case",
+        "field": "incoming_channel",
+        "type": "string"
+    },
+    {
+        "entity": "case",
+        "field": "user_segment",
+        "type": "string"
+    },
+    {
+        "entity": "case",
+        "field": "bug",
+        "type": ""
+    },
+    {
+        "entity": "case",
+        "field": "bug_fix_type",
+        "type": ""
+    },
+    {
+        "entity": "case",
+        "field": "portal_status",
+        "type": "string"
+    },
+    {
+        "entity": "case",
+        "field": "tags",
+        "type": "array of string"
+    }
+]

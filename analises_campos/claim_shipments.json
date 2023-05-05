@@ -1,0 +1,281 @@
+// variable: type_logistic_is_xd_ds_fbm
+// entity: https://internal-api.mercadolibre.com/cx/claims/5184466880/shipments - claim_shipments
+// retorno:
+[
+    {
+        //"last_updated": "2023-04-12T17:17:59.096-04:00",
+        "substatus": null,
+        // "date_created": "2023-03-24T14:18:48.662-04:00",
+         "origin": {
+        //     "type": "selling_address",
+        //     "sender_id": 543027208,
+           "shipping_address": {
+        //         "address_id": 1117698274,
+        //         "address_line": "Otto krause 4820",
+        //         "street_name": "Otto krause",
+        //         "street_number": "4820",
+        //         "comment": "Referencia: Deposito Familia Bercomat.  - Otto krause 4820/4850",
+        //         "zip_code": "1667",
+        //         "latitude": -34.449465,
+        //         "longitude": -58.70783,
+        //         "geolocation_type": "ROOFTOP",
+        //         "geolocation_last_updated": "2022-10-04T14:57:23Z",
+                "geolocation_source": "logistics-feedback",
+                "types": [
+                    "shipping"
+                ],
+                "agency": {
+                    "type": null,
+                    //"carrier_id": null,
+                    "agency_id": null,
+                    // "description": null,
+                   // "phone": null,
+                    //"open_hours": null
+                },
+                // "municipality": {
+                //     "id": null,
+                //     "name": null
+                // },
+                // "location_id": null,
+                // "neighborhood": {
+                //     "id": null,
+                //     "name": null
+                // },
+                "country": {
+                   // "id": "AR",
+                    "name": "Argentina"
+                },
+                "state": {
+                   // "id": "AR-B",
+                    "name": "Buenos Aires"
+                },
+                "city": {
+                    //"id": "TUxBQ01BTHZpbmFz",
+                    "name": "Malvinas Argentinas"
+                },
+                "scoring": null,
+                "intersection": null
+            }
+        ,
+        "destination": {
+            "type": "agency",
+            // "receiver_id": 41932067,
+            // "receiver_name": null,
+            // "receiver_phone": null,
+            // "comments": null,
+             "shipping_address": {
+            //     "address_id": null,
+            //     "address_line": "Av. CORRIENTES 4577",
+            //     "street_name": "Av. CORRIENTES",
+            //     "street_number": "4577",
+            //     "comment": "",
+            //     "zip_code": "1195",
+            //     "latitude": -34.602191,
+            //     "longitude": -58.429638,
+            //     "geolocation_type": null,
+            //     "geolocation_last_updated": null,
+            //     "geolocation_source": null,
+                "types": [
+                    "agency_address"
+                ],
+                // "agency": {
+                //     "type": "place",
+                //     "carrier_id": 104359934,
+                //     "agency_id": "2424",
+                //     "description": "Punto HOP",
+                //     "phone": null,
+                //     "open_hours": "Lunes a sábado de 8 a 20:30 hs."
+                // },
+                "municipality": {
+                    "id": null,
+                    "name": null
+                },
+                "location_id": null,
+                "neighborhood": {
+                    "id": null,
+                    "name": null
+                },
+                "country": {
+                    "id": "AR",
+                    "name": "Argentina"
+                },
+                "state": {
+                    "id": "AR-C",
+                    "name": "Capital Federal"
+                },
+                "city": {
+                   // "id": "TUxBQlZJTDQyMjBa",
+                    "name": "Villa Crespo"
+                },
+                "scoring": null,
+                "intersection": null,
+                "delivery_preference": "business"
+            }
+        },
+        "source": {
+            "site_id": "MLA",
+            "market_place": "MELI",
+            //"application_id": null
+        },
+        "tags": [
+            "carrier_contingency"
+        ],
+        "declared_value": 81555.01,
+        "logistic": {
+            "direction": "forward",
+            "mode": "me2",
+            "type": "cross_docking"
+        },
+        "sibling": {
+            //"sibling_id": null,
+            "reason": null,
+            "description": null,
+            "source": null,
+            // "date_created": null,
+            // "last_updated": null
+        },
+        "lead_time": {
+            // "option_id": 165104952,
+            // "processing_time": null,
+             "shipping_method": {
+            //     "id": 504345,
+                "name": "Retiro en una sucursal",
+                "type": "standard",
+                "deliver_to": "agency"
+            },
+            "currency_id": "ARS",
+            "cost": 0,
+            "list_cost": 2065,
+            "cost_type": "free",
+            "service_id": 145041,
+            "delivery_type": "estimated",
+            "delivery_promise": "estimated",
+            // "estimated_schedule_limit": {
+            //     "date": null
+            // },
+            // "buffering": {
+            //     "date": null
+            // },
+            "estimated_delivery_time": {
+                "type": "known_frame",
+               // "date": "2023-04-10T00:00:00.000-03:00",
+                "unit": "hour",
+               // "pay_before": null,
+                "shipping": 0,
+                "handling": 0,
+                "schedule": null,
+                // "time_frame": {
+                //     "from": null,
+                //     "to": null
+                // },
+            //     "offset": {
+            //         "date": "2023-04-11T00:00:00.000-03:00",
+            //         "shipping": 24
+            //     }
+            // },
+            // "estimated_delivery_limit": {
+            //     "date": "2023-04-10T00:00:00.000-03:00",
+            //     "offset": 240
+            // },
+            // "estimated_delivery_final": {
+            //     "date": "2023-04-10T00:00:00.000-03:00",
+            //     "offset": 720
+            // },
+            // "estimated_delivery_extended": {
+            //     "date": "2023-04-10T00:00:00.000-03:00",
+            //     "offset": 240
+            // },
+            // "estimated_handling_limit": {
+            //     "date": "2023-03-27T00:00:00.000-03:00"
+            // }
+        },
+        // "external_reference": "2000004312390571",
+        // "tracking_number": "399999926271278",
+        // "id": 42142430369,
+        "tracking_method": "Retiro en una sucursal",
+        "status": "delivered",
+    }
+}
+]
+
+
+//campos selecionados:
+
+[
+    {
+        "substatus": null,
+         "origin": {
+           "shipping_address": {
+                "geolocation_source": "logistics-feedback",
+                "types": [
+                    "shipping"
+                ],
+                "agency": {
+                    "type": null,
+                    "agency_id": null,
+                },
+                "country": {
+                    "name": "Argentina"
+                },
+                "scoring": null,
+                "intersection": null
+            }
+        ,
+        "destination": {
+            "type": "agency",
+             "shipping_address": {
+                "types": [
+                    "agency_address"
+                ],
+                "country": {
+                    "id": "AR",
+                    "name": "Argentina"
+                },
+                "scoring": null,
+                "intersection": null,
+                "delivery_preference": "business"
+            }
+        },
+        "source": {
+            "site_id": "MLA",
+            "market_place": "MELI",
+        },
+        "tags": [
+            "carrier_contingency"
+        ],
+        "declared_value": 81555.01,
+        "logistic": {
+            "direction": "forward",
+            "mode": "me2",
+            "type": "cross_docking"
+        },
+        "sibling": {
+            "reason": null,
+            "source": null,
+        },
+        "lead_time": {
+             "shipping_method": {
+                "name": "Retiro en una sucursal",
+                "type": "standard",
+                "deliver_to": "agency"
+            },
+            "currency_id": "ARS",
+            "cost": 0,
+            "list_cost": 2065,
+            "cost_type": "free",
+            "service_id": 145041,
+            "delivery_type": "estimated",
+            "delivery_promise": "estimated",
+            "estimated_delivery_time": {
+                "type": "known_frame",
+                "unit": "hour",
+                "shipping": 0,
+                "handling": 0,
+                "schedule": null,
+            },
+        },
+        "tracking_method": "Retiro en una sucursal",
+        "status": "delivered",
+    }
+}
+]

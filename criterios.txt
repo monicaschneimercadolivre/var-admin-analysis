@@ -1,0 +1,15 @@
+Critérios: 
+
+Retirar:
+
+Datas
+
+Ids 
+
+Dados pessoais
+
+Informações internas da api
+
+Urls
+
+Descrições/mensagens

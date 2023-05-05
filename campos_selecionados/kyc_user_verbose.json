@@ -1,0 +1,30 @@
+//entity, campos, tipos
+// Baseado nos userId: 1238346139, 212965880, 163799707, 152086867, 10786016
+[
+
+    {
+        "entity": "kyc_user_verbose",
+        "field": "site_id",
+        "type": "string"
+    },
+    {
+        "entity": "kyc_user_verbose",
+        "field": "entity_type",
+        "type": "string"
+    },
+    {
+        "entity": "kyc_user_verbose",
+        "field": "status",
+        "type": "string"
+    },
+    {
+        "entity": "kyc_user_verbose",
+        "field": "is_initiative_compliant",
+        "type": "boolean"
+    },
+    {
+        "entity": "kyc_user_verbose",
+        "field": "access",
+        "type": "string"
+    },
+]

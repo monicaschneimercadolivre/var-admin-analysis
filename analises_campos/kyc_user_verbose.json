@@ -1,0 +1,11 @@
+// variable: is_buyer_high_risk_order
+// entity:https://internal-api.mercadolibre.com/kyc/users/360572282/verbose - kyc_user_verbose
+// retorno:
+
+{
+    "site_id": "MLM",
+    "entity_type": "person",
+    "status": "standby",
+    "is_initiative_compliant": true,
+    "access": "full"
+}

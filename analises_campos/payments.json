@@ -1,0 +1,372 @@
+// /variable: is_payment_credit_card_starting_407843
+// entity: https://internal-api.mercadopago.com/v1/payments/53830354609 - payments
+// retorno:
+
+{
+    "is_payment_credit_card_starting_407843": {
+        //"acquirer": null,
+        "acquirer_reconciliation": [],
+        "additional_info": {
+            //"authentication_code": null,
+            "available_balance": null,
+            "nsu_processadora": null,
+            // "poi_id": null,
+            // "tracking_id": "platform:v1-blacklabel,so:ALL,type:N/A,security:none"
+        },
+        //"api_version": "2",
+        //"application_id": 5964921604035231,
+        //"authorization_code": null,
+        "available_actions": [],
+        "binary_mode": true,
+        //"brand_id": null,
+        //"build_version": "2.130.2",
+        //"call_for_authorize_id": null,
+        "captured": true,
+        "card": {
+            //"bin": "48151530",
+            "cardholder": {
+                "identification": {
+                   // "number": null,
+                    "type": null
+                },
+               // "name": "Jorge Torres"
+            },
+            //"date_created": "2023-04-27T14:50:52.000-04:00",
+           // "date_last_updated": "2023-04-27T14:50:52.000-04:00",
+            "expiration_month": 2,
+            "expiration_year": 2028,
+            "first_six_digits": "481515",
+            //"id": null,
+            "last_four_digits": "8610"
+        },
+        "charges_details": [ //???
+            {
+                "accounts": {
+                    "from": "collector",
+                    "to": "me"
+                },
+                "amounts": {
+                    "original": 72.5,
+                    "refunded": 0
+                },
+                "client_id": 6001919313095062,
+                "date_created": "2023-04-21T18:56:35.000-04:00",
+                "id": "57156295411-001",
+                "last_updated": "2023-04-21T18:56:35.000-04:00",
+                "metadata": {
+                    "shipment_id": 42212365040
+                },
+                "name": "shp_private_label",
+                "refund_charges": [],
+                "reserve_id": null,
+                "type": "shipping"
+            }
+        ],
+        //"client_id": "5964921604035231",
+        // "collector": {
+        //     "email": "debit_card_evertec_mlm@mercadopago.com",
+        //     "first_name": "Jesus Alfredo Nava Escarcega",
+        //     "id": 574451595,
+        //     "identification": {
+        //         "number": "MER991006JMA",
+        //         "type": "RFC"
+        //     },
+        //     "last_name": "",
+        //     "operator_id": null,
+        //     "phone": {
+        //         "area_code": null,
+        //         "extension": null,
+        //         "number": null
+        //     }
+        // },
+        // "collector_id": 574451595,
+        "collector_tags": [],
+        "contingencies": {
+            "list": [],
+            "status": "none"
+        },
+        //"corporation_id": null,
+        "counter_currency": null,
+        "coupon_amount": 0,
+        //"coupon_id": null,
+        //"currency_id": "MXN",
+        // "date_approved": "2023-02-06T11:05:12.000-04:00",
+        // "date_created": "2023-02-03T22:41:01.000-04:00",
+        // "date_last_updated": "2023-02-07T09:31:52.000-04:00",
+        // "date_of_expiration": "2024-02-03T22:41:00.000-04:00",
+        // "db_metadata": {
+        //     "source_create": "FULL_KVS",
+        //     "source_last_update": "FULL_KVS",
+        //     "stream_skip_version": [
+        //         1,
+        //         4,
+        //         9,
+        //         10
+        //     ]
+        // },
+        //"deduction_schema": null,
+        //"description": "Ame*scribd Com",
+        //"differential_pricing_id": null,
+        //"external_reference": "0100_160114_0204024100_005667-1675478461007",
+        "fee_details": [],
+        "financing_group": null,
+        "financing_type": null,
+        //"id": 54326422283,
+        "installments": 1,
+        //"integrator_id": null,
+        // "internal_metadata": {
+        //     "regulation_trusted_contact": false,
+        //     "rule_engine": {
+        //         "valid_promise": false,
+        //         "with_promise": false,
+        //         "rules": [
+        //             {
+        //                 "rule_id": 21000062607,
+        //                 "rule_set": "processing_fee_and_release"
+        //             },
+        //             {
+        //                 "rule_id": 21002837447,
+        //                 "rule_set": "processing_fee_charge"
+        //             },
+        //             {
+        //                 "rule_id": 21000795801,
+        //                 "rule_set": "deductions"
+        //             },
+        //             {
+        //                 "rule_id": 21000236905,
+        //                 "rule_set": "financing_fee_collector"
+        //             }
+        //         ]
+        //     },
+        //     "payment_method_id": "67697345",
+        //     "processing_network": "mastercard",
+        //     "action_id": "EDG6QBQSXcAXt7rX70NmdVjWJ64GV7nR3jMmnKwvTr20dAn6NGJqwRVrEA7Z4mdr",
+        //     "internal_risk_analysis": "by_risk",
+        //     "capture_mode": "total",
+        //     "location": "local",
+        //     "type": "authorization"
+        // },
+        //"is_test": null,
+        //"issuer_id": null,
+        "live_mode": true,
+        "marketplace": "NONE",
+        //"marketplace_owner": null,
+        //"merchant_account_id": null,
+        "merchant_number": null,
+        //"metadata": {},
+        //"money_release_date": "2023-02-06T11:06:19.000-04:00",
+        "money_release_days": 0,
+        //"money_release_schema": null,
+        "money_release_status": "released",
+        //"notification_url": null,
+        "operation_type": "regular_payment",
+        "order": {
+           // "id": "2000005544592388",
+            "type": "mercadolibre"
+        },
+        //"owner": null,
+        // "payer": {
+        //     "email": "danielaolvera2001@gmail.com",
+        //     "entity_type": null,
+        //     "first_name": "Daniela",
+        //     "id": "473852318",
+        //     "identification": {
+        //         "number": "OEOD010919MHGLRNA7",
+        //         "type": "CURP"
+        //     },
+        //     "last_name": "Olvera Ortiz",
+        //     "operator_id": null,
+        //     "phone": {
+        //         "area_code": null,
+        //         "extension": null,
+        //         "number": "7751827697"
+        //     },
+        //     "type": "registered"
+        // },
+        //"payer_id": 473852318,
+        "payer_tags": [
+            "unrecognized"
+        ],
+        "payment_method": {
+            "id": "account_money",
+            "type": "account_money"
+        },
+        "payment_method_id": "account_money",
+        "payment_type_id": "account_money",
+        //"platform_id": null,
+        "point_of_interaction": {
+            "business_info": {
+                "branch": "Virtual",
+                "sub_unit": "debit_card",
+                "unit": "cards"
+            },
+            "sub_type": "AUTHORIZATION",
+            "transaction_data": {
+                "amount_details": null,
+                "transaction_amount_usd": 8,
+                "transaction_rate_usd": null
+            },
+            "type": "MP_DEBIT_CARD"
+        },
+        //"pos_id": null,
+        "processing_mode": "aggregator",
+        //"product_id": "BU47V3QBJKRP6U5GVN6G",
+        //"profile_id": null,
+        "refunds": [ //??
+            {
+                "additional_data": null,
+                "adjustment_amount": 0,
+                "alternative_refund_mode": null,
+                "amount": 1308,
+                "amount_refunded_to_payer": 1308,
+                "collector_movement_id": null,
+                "counter_currency": null,
+                "date_created": "2023-05-04T10:07:31.000-04:00",
+                "external_operations": [],
+                "external_refund_id": null,
+                "funder": null,
+                "gtw_refund_id": null,
+                "id": 1354533651,
+                "labels": [],
+                "metadata": {
+                    "coverage": {
+                        "client_id": "1843996409054571",
+                        "flow": "mediation",
+                        "id": 873604886
+                    }
+                },
+                "partition_details": [],
+                "payer_movement_id": null,
+                "payment_id": 57156295411,
+                "reason": null,
+                "refund_mode": "standard",
+                "reserve_id": null,
+                "source": {
+                    "id": null,
+                    "name": null,
+                    "type": "bpp"
+                },
+                "status": "approved",
+                "unique_sequence_number": null
+            }
+        ],
+        //"reserve_id": "14539516096",
+        //"risk_execution_id": 518145837890,
+        "shipping_amount": 0,
+        "site_id": "MLM",
+        //"splitter_id": null,
+        //"sponsor_id": null,
+        "statement_descriptor": null,
+        "status": "charged_back",
+        "status_detail": "reimbursed",
+        //"store_id": null,
+        "taxes_amount": 0,
+        "transaction_amount": 149,
+        "transaction_amount_refunded": 0,
+        "transaction_details": {
+            "acquirer_reference": null,
+           // "external_resource_url": null,
+            "financial_institution": null,
+            "installment_amount": 0,
+            "net_received_amount": 149,
+            "overpaid_amount": 0,
+            "payable_deferral_period": null,
+            //"payment_method_reference_id": null,
+            "total_paid_amount": 149
+        },
+        //"transaction_id": null,
+        //"version": 10
+    }
+}
+
+
+//campos selecionados:
+
+{
+    "is_payment_credit_card_starting_407843": {
+        "acquirer_reconciliation": [],
+        "additional_info": {
+            "available_balance": null,
+            "nsu_processadora": null,
+        },
+        "available_actions": [],
+        "binary_mode": true,
+        "captured": true,
+        "card": {
+            "cardholder": {
+                "identification": {
+                    "type": null
+                },
+            },
+            "expiration_month": 2,
+            "expiration_year": 2028,
+            "first_six_digits": "481515",
+            "last_four_digits": "8610"
+        },
+        "charges_details": [],
+        "collector_tags": [],
+        "contingencies": {
+            "list": [],
+            "status": "none"
+        },
+        "counter_currency": null,
+        "coupon_amount": 0,
+        "fee_details": [],
+        "financing_group": null,
+        "financing_type": null,
+        "installments": 1,
+        "live_mode": true,
+        "marketplace": "NONE",
+        "merchant_number": null,
+        "money_release_days": 0,
+        "money_release_status": "released",
+        "operation_type": "regular_payment",
+        "order": {
+            "type": "mercadolibre"
+        },
+        "payer_tags": [
+            "unrecognized"
+        ],
+        "payment_method": {
+            "id": "account_money",
+            "type": "account_money"
+        },
+        "payment_method_id": "account_money",
+        "payment_type_id": "account_money",
+        "point_of_interaction": {
+            "business_info": {
+                "branch": "Virtual",
+                "sub_unit": "debit_card",
+                "unit": "cards"
+            },
+            "sub_type": "AUTHORIZATION",
+            "transaction_data": {
+                "amount_details": null,
+                "transaction_amount_usd": 8,
+                "transaction_rate_usd": null
+            },
+            "type": "MP_DEBIT_CARD"
+        },
+        "processing_mode": "aggregator",
+        "refunds": [],
+        "shipping_amount": 0,
+        "site_id": "MLM",
+        "statement_descriptor": null,
+        "status": "charged_back",
+        "status_detail": "reimbursed",
+        "taxes_amount": 0,
+        "transaction_amount": 149,
+        "transaction_amount_refunded": 0,
+        "transaction_details": {
+            "acquirer_reference": null,
+            "financial_institution": null,
+            "installment_amount": 0,
+            "net_received_amount": 149,
+            "overpaid_amount": 0,
+            "payable_deferral_period": null,
+            "total_paid_amount": 149
+        },
+    }
+}
+
+

@@ -1,0 +1,299 @@
+//entity, campos, tipos
+// Baseado nos paymentId: 57415451046, 57306212511, 57156295411, 57109918389, 57132135020
+[
+     {
+        "entity": "payments",
+        "field": "acquirer_reconciliation",
+        "type": "array"
+    },
+    {
+        "entity": "payments",
+        "field":  "additional_info.available_balance",
+        "type": ""
+    },
+    {
+        "entity": "payments",
+        "field":  "additional_info.nsu_processadora",
+        "type": ""
+    },
+    {
+        "entity": "payments",
+        "field":  "available_actions",
+        "type": "array of string"
+    },
+    {
+        "entity": "payments",
+        "field":  "binary_mode",
+        "type": "boolean"
+    },   
+    {
+        "entity": "payments",
+        "field":  "captured",
+        "type": "boolean"
+    },
+    {
+        "entity": "payments",
+        "field":  "card.cardholder.identification.type",
+        "type": ""
+    },
+    {
+        "entity": "payments",
+        "field":  "card.expiration_month",
+        "type": "number"
+    },
+    {
+        "entity": "payments",
+        "field":  "card.expiration_year",
+        "type": "number"
+    },
+    {
+        "entity": "payments",
+        "field":  "card.first_six_digits",
+        "type": "string"
+    },
+    {
+        "entity": "payments",
+        "field":  "card.last_four_digits",
+        "type": "string"
+    },
+    {
+        "entity": "payments",
+        "field":  "charges_details",
+        "type": "array of object"
+    },
+    {
+        "entity": "payments",
+        "field":  "collector_tags",
+        "type": "array"
+    },
+    {
+        "entity": "payments",
+        "field":  "contingencies.list",
+        "type": "array"
+    }, 
+    {
+        "entity": "payments",
+        "field":  "contingencies.status",
+        "type": "string"
+    },
+    {
+        "entity": "payments",
+        "field":  "counter_currency",
+        "type": ""
+    }, 
+    {
+        "entity": "payments",
+        "field":  "coupon_amount",
+        "type": "number"
+    }, 
+    {
+        "entity": "payments",
+        "field":  "fee_details",
+        "type": "array"
+    }, 
+    {
+        "entity": "payments",
+        "field":  "financing_group",
+        "type": ""
+    },  
+    {
+        "entity": "payments",
+        "field":  "financing_type",
+        "type": "string"
+    }, 
+    {
+        "entity": "payments",
+        "field":  "installments",
+        "type": "number"
+    },
+    {
+        "entity": "payments",
+        "field":  "live_mode",
+        "type": "boolean"
+    },
+    {
+        "entity": "payments",
+        "field":  "marketplace",
+        "type": "string"
+    },
+    {
+        "entity": "payments",
+        "field":  "merchant_number",
+        "type": "number"
+    },
+    {
+        "entity": "payments",
+        "field":  "money_release_days",
+        "type": "number"
+    },
+     {
+        "entity": "payments",
+        "field":  "money_release_status",
+        "type": "string"
+    },
+    {
+        "entity": "payments",
+        "field":  "operation_type",
+        "type": "string"
+    },
+    {
+        "entity": "payments",
+        "field":  "order.type",
+        "type": "string"
+    }, 
+    {
+        "entity": "payments",
+        "field":  "payer_tags",
+        "type": "array of string"
+    },
+    {
+        "entity": "payments",
+        "field":  "payment_method.id",
+        "type": "string"
+    },
+    {
+        "entity": "payments",
+        "field":  "payment_method.type",
+        "type": "string"
+    },
+    {
+        "entity": "payments",
+        "field":  "payment_method_id",
+        "type": "string"
+    },
+    {
+        "entity": "payments",
+        "field":  "payment_type_id",
+        "type": "string"
+    },
+    {
+        "entity": "payments",
+        "field":  "point_of_interaction.business_info.branch",
+        "type": "string"
+    },
+    {
+        "entity": "payments",
+        "field":  "point_of_interaction.business_info.sub_unit",
+        "type": "string"
+    },
+    {
+        "entity": "payments",
+        "field":  "point_of_interaction.business_info.unit",
+        "type": "string"
+    },
+    {
+        "entity": "payments",
+        "field":  "point_of_interaction.sub_type",
+        "type": "string"
+    },
+    {
+        "entity": "payments",
+        "field":  "transaction_data",
+        "type": "object"
+    },
+    {
+        "entity": "payments",
+        "field":  "point_of_interaction.transaction_data.amount_details",
+        "type": ""
+    },
+    {
+        "entity": "payments",
+        "field":  "point_of_interaction.transaction_data.transaction_amount_usd",
+        "type": "number"
+    },
+    {
+        "entity": "payments",
+        "field":  "point_of_interaction.transaction_data.transaction_rate_usd",
+        "type": ""
+    },
+    {
+        "entity": "payments",
+        "field":  "point_of_interaction.type",
+        "type": "string"
+    },
+    {
+        "entity": "payments",
+        "field":  "processing_mode",
+        "type": "string"
+    },
+    {
+        "entity": "payments",
+        "field":  "refunds",
+        "type": "array of object"
+    },
+    {
+        "entity": "payments",
+        "field":  "shipping_amount",
+        "type": "number"
+    },
+    {
+        "entity": "payments",
+        "field":  "site_id",
+        "type": "string"
+    },
+    {
+        "entity": "payments",
+        "field":  "statement_descriptor",
+        "type": "string"
+    },
+    {
+        "entity": "payments",
+        "field":  "status",
+        "type": "string"
+    },
+    {
+        "entity": "payments",
+        "field":  "status_detail",
+        "type": "string"
+    },
+    {
+        "entity": "payments",
+        "field":  "taxes_amount",
+        "type": "number"
+    },
+    {
+        "entity": "payments",
+        "field":  "transaction_amount",
+        "type": "number"
+    },
+    {
+        "entity": "payments",
+        "field":  "transaction_amount_refunded",
+        "type": "number"
+    },
+    {
+        "entity": "payments",
+        "field":  "transaction_details.acquirer_reference",
+        "type": ""
+    },
+    {
+        "entity": "payments",
+        "field":  "transaction_details.financial_institution",
+        "type": "string"
+    },
+    {
+        "entity": "payments",
+        "field":  "transaction_details.installment_amount",
+        "type": "number"
+    },
+    {
+        "entity": "payments",
+        "field":  "transaction_details.net_received_amount",
+        "type": "number"
+    },
+    {
+        "entity": "payments",
+        "field":  "transaction_details.overpaid_amount",
+        "type": "number"
+    },
+    {
+        "entity": "payments",
+        "field":  "transaction_details.payable_deferral_period",
+        "type": ""
+    },
+    {
+        "entity": "payments",
+        "field":  "transaction_details.total_paid_amount",
+        "type": "number"
+    },
+]

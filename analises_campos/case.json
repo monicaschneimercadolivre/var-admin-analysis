@@ -1,0 +1,87 @@
+// variable: return_site_id
+// entity:https://internal-api.mercadolibre.com/cx/cases/252635811 - case
+// retorno:
+
+
+
+{
+    // "id": 252635811,
+    "origin": "CX_ONE_MANUAL",
+    // "origin_detail": null,
+    // "owner_id": null,
+    // "form_id": null,
+    // "faq_id": null,
+    // "queue_id": 1972,
+    "site_id": "MLA",
+    // "process_id": 1435,
+    "status": "NEW",
+    // "date_created": "2023-05-03T10:21:27.000-0400",
+    "user_subject": "testeo",
+    "parent_id": null,
+    // "user_id": 466593072,
+    "channel": "CX_ONE",
+    "current_channel": "OFFLINE",
+    "incoming_channel": "OFFLINE",
+    "user_segment": "LONG_TAIL",
+    "bug_id": null,
+    "bug": null,
+    "bug_fix_type": null,
+    "source_id": null,
+    "problem_id": null,
+    // "details": {
+    //     "case_creation_date": "2023-05-03T10:21:26.747511-04:00"
+    // },
+    // "entities": {
+    //     "order_id": null,
+    //     "item_id": null,
+    //     "claim_id": null,
+    //     "purchase_id": null,
+    //     "pack_id": null,
+    //     "payment_id": null,
+    //     "withdrawal_id": null,
+    //     "payout_id": null,
+    //     "inbound_shipment_id": null,
+    //     "sku_id": null,
+    //     "credit_card_purchase_id": null,
+    //     "withdrawal_fbm_id": null,
+    //     "loan_id": null,
+    //     "movement_id": null,
+    //     "point_device": null,
+    //     "point_serial_number": null,
+    //     "lead_id": null
+    // },
+    // "sf_id": null,
+    // "last_modification_date": "2023-05-03T10:21:27.000-0400",
+    // "last_incoming_date": "2023-05-03T10:21:26.747-0400",
+    // "last_outgoing_date": null,
+    // "last_derivation_date": null,
+    // "survey_sent": false,
+    // "gin_expiration_date": null,
+    // "process_name": null,
+    // "type_id": 8,
+    "portal_status": "PENDING",
+    "tags": [
+        "test_case"
+    ]
+}
+
+
+//campos selecionados:
+
+{
+    "origin": "CX_ONE_MANUAL",
+    "site_id": "MLA",
+    "status": "NEW",
+    "user_subject": "testeo",
+    "parent_id": null,
+    "channel": "CX_ONE",
+    "current_channel": "OFFLINE",
+    "incoming_channel": "OFFLINE",
+    "user_segment": "LONG_TAIL",
+    "bug": null,
+    "bug_fix_type": null,
+    "portal_status": "PENDING",
+    "tags": [
+        "test_case"
+    ]
+}

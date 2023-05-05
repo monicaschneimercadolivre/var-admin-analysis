@@ -1,0 +1,199 @@
+//entity, campos, tipos
+//Baseados nos claimId: 5189314450, 5189159413, 5189146632, 5188217926, 5187848047
+[
+    {
+        "entity": "claim_shipments",
+        "field": "substatus",
+        "type": "string"
+    },
+    {
+        "entity": "claim_shipments",
+        "field": "origin.shipping_address.geolocation_source",
+        "type": "string"
+    },
+    {
+        "entity": "claim_shipments",
+        "field": "origin.shipping_address.types",
+        "type": "array of string"
+    },
+    {
+        "entity": "claim_shipments",
+        "field": "origin.shipping_address.agency.type",
+        "type": ""
+    },
+    {
+        "entity": "claim_shipments",
+        "field": "origin.shipping_address.agency.agency_id",
+        "type": ""
+    },
+    {
+        "entity": "claim_shipments",
+        "field": "origin.shipping_address.agency.country.name",
+        "type": "string"
+    },
+    {
+        "entity": "claim_shipments",
+        "field": "origin.destination.type",
+        "type": "string"
+    },
+    {
+        "entity": "claim_shipments",
+        "field": "origin.destination.shipping_address.types",
+        "type": "array of string"
+    },
+    {
+        "entity": "claim_shipments",
+        "field": "origin.destination.shipping_address.country.id",
+        "type": "string"
+    },
+    {
+        "entity": "claim_shipments",
+        "field": "origin.destination.shipping_address.country.name",
+        "type": "string"
+    },
+    {
+        "entity": "claim_shipments",
+        "field": "origin.destination.shipping_address.scoring",
+        "type": ""
+    },
+    {
+        "entity": "claim_shipments",
+        "field": "origin.destination.shipping_address.intersection",
+        "type": ""
+    },
+    {
+        "entity": "claim_shipments",
+        "field": "origin.destination.shipping_address.delivery_preference",
+        "type": "string"
+    },
+    {
+        "entity": "claim_shipments",
+        "field": "origin.source.site_id",
+        "type": "string"
+    },
+    {
+        "entity": "claim_shipments",
+        "field": "origin.source.market_place",
+        "type": "string"
+    },
+    {
+        "entity": "claim_shipments",
+        "field": "origin.tags",
+        "type": "array of string"
+    },
+    {
+        "entity": "claim_shipments",
+        "field": "origin.declared_value",
+        "type": "number"
+    },
+    {
+        "entity": "claim_shipments",
+        "field": "origin.logistic.direction",
+        "type": "string"
+    },
+    {
+        "entity": "claim_shipments",
+        "field": "origin.logistic.mode",
+        "type": "string"
+    },
+    {
+        "entity": "claim_shipments",
+        "field": "origin.logistic.type",
+        "type": "string"
+    },
+    {
+        "entity": "claim_shipments",
+        "field": "origin.sibling.reason",
+        "type": ""
+    },
+    {
+        "entity": "claim_shipments",
+        "field": "origin.sibling.source",
+        "type": ""
+    },
+    {
+        "entity": "claim_shipments",
+        "field": "origin.lead_time.shipping_method.name",
+        "type": "string"
+    },
+    {
+        "entity": "claim_shipments",
+        "field": "origin.lead_time.shipping_method.type",
+        "type": "string"
+    },
+    {
+        "entity": "claim_shipments",
+        "field": "origin.lead_time.shipping_method.deliver_to",
+        "type": "string"
+    },
+    {
+        "entity": "claim_shipments",
+        "field": "origin.lead_time.currency_id",
+        "type": "string"
+    },
+    {
+        "entity": "claim_shipments",
+        "field": "origin.lead_time.cost",
+        "type": "number"
+    },
+    {
+        "entity": "claim_shipments",
+        "field": "origin.lead_time.list_cost",
+        "type": "number"
+    },
+    {
+        "entity": "claim_shipments",
+        "field": "origin.lead_time.cost_type",
+        "type": "number"
+    },
+    {
+        "entity": "claim_shipments",
+        "field": "origin.lead_time.service_id",
+        "type": "number"
+    },
+    {
+        "entity": "claim_shipments",
+        "field": "origin.lead_time.delivery_type",
+        "type": "number"
+    },
+    {
+        "entity": "claim_shipments",
+        "field": "origin.lead_time.delivery_promise",
+        "type": "string"
+    },
+    {
+        "entity": "claim_shipments",
+        "field": "origin.lead_time.estimated_delivery_time.type",
+        "type": "string"
+    },
+    {
+        "entity": "claim_shipments",
+        "field": "origin.lead_time.estimated_delivery_time.unit",
+        "type": "string"
+    },
+    {
+        "entity": "claim_shipments",
+        "field": "origin.lead_time.estimated_delivery_time.shipping",
+        "type": "number"
+    },
+    {
+        "entity": "claim_shipments",
+        "field": "origin.lead_time.estimated_delivery_time.handling",
+        "type": "number"
+    },
+    {
+        "entity": "claim_shipments",
+        "field": "origin.lead_time.estimated_delivery_time.schedule",
+        "type": ""
+    },
+    {
+        "entity": "claim_shipments",
+        "field": "origin.tracking_method",
+        "type": "string"
+    },
+    {
+        "entity": "claim_shipments",
+        "field": "origin.status",
+        "type": "string"
+    },
+]
