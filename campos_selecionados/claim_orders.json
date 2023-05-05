@@ -1,0 +1,162 @@
+//entity, campos, tipos
+//Baseados nos claimId: 5189314450, 5189159413, 5189146632, 5188217926, 5187848047
+
+[
+    {
+        "entity": "claim_orders",
+        "field": "order_request.return",
+        "title": "",
+        "description": "",
+        "type": ""
+    },
+    {
+        "entity": "claim_orders",
+        "field": "order_request.change",
+        "title": "",
+        "description": "",
+        "type": ""
+    },
+    {
+        "entity": "claim_orders",
+        "field": "fulfilled",
+        "title": "",
+        "description": "",
+        "type": "boolean"
+    },
+    {
+        "entity": "claim_orders",
+        "field": "hidden_for_seller",
+        "title": "",
+        "description": "",
+        "type": "boolean"
+    },
+    {
+        "entity": "claim_orders",
+        "field": "buying_mode",
+        "title": "",
+        "description": "",
+        "type": "string"
+    },
+    {
+        "entity": "claim_orders",
+        "field": "shipping_cost",
+        "title": "",
+        "description": "",
+        "type": "number"
+    },
+    {
+        "entity": "claim_orders",
+        "field": "total_amount",
+        "title": "",
+        "description": "",
+        "type": "number"
+    },
+    {
+        "entity": "claim_orders",
+        "field": "paid_amount",
+        "title": "",
+        "description": "",
+        "type": "number"
+    },
+    {
+        "entity": "claim_orders",
+        "field": "coupon.amount",
+        "title": "",
+        "description": "",
+        "type": "number"
+    },
+    {
+        "entity": "claim_orders",
+        "field": "order_items",
+        "title": "",
+        "description": "",
+        "type": "array of object" //??
+    },
+    {
+        "entity": "claim_orders",
+        "field": "currency_id",
+        "title": "",
+        "description": "",
+        "type": "string"
+    },
+    {
+        "entity": "claim_orders",
+        "field": "payments",
+        "title": "",
+        "description": "",
+        "type": "array of object" //??
+    },
+    {
+        "entity": "claim_orders",
+        "field": "status",
+        "title": "",
+        "description": "",
+        "type": "string" 
+    },
+    {
+        "entity": "claim_orders",
+        "field": "status_detail",
+        "title": "",
+        "description": "",
+        "type": "string" 
+    },
+    {
+        "entity": "claim_orders",
+        "field": "tags",
+        "title": "",
+        "description": "",
+        "type": "array of string" 
+    },
+    {
+        "entity": "claim_orders",
+        "field": "internal_tags",
+        "type": "array of string" 
+    },
+    {
+        "entity": "claim_orders",
+        "field": "feedback.buyer",
+        "type": "" 
+    },
+    {
+        "entity": "claim_orders",
+        "field": "feedback.seller",
+        "type": "" 
+    },
+    {
+        "entity": "claim_orders",
+        "field": "context.channel",
+        "type": "string" 
+    },
+    {
+        "entity": "claim_orders",
+        "field": "context.site",
+        "type": "string" 
+    },
+    {
+        "entity": "claim_orders",
+        "field": "context.flows",
+        "type": "array of string" 
+    },
+    {
+        "entity": "claim_orders",
+        "field": "cancel_detail.group",
+        "type": "string" 
+    },
+    {
+        "entity": "claim_orders",
+        "field": "cancel_detail.code",
+        "type": "string" 
+    },
+    {
+        "entity": "claim_orders",
+        "field": "cancel_detail.description",
+        "type": "string" 
+    },
+    {
+        "entity": "claim_orders",
+        "field": "cancel_detail.requested_by",
+        "type": "string" 
+    },
+]
+
+

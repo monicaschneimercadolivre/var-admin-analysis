@@ -3,9 +3,20 @@
 // retorno:
 
 {
-    "site_id": "MLM",
+    "site_id": "MLA",
     "entity_type": "person",
-    "status": "standby",
+    "status": "complete",
     "is_initiative_compliant": true,
-    "access": "full"
-}
+    "access": "full",
+    "access_modifiers": {
+      "additionalProp1": true,
+      "additionalProp2": true,
+      "additionalProp3": true
+    },
+    "user_challenge": "ChallengeName1",
+    "backoffice_challenge": "ChallengeName1",
+    "user_in_contingency": true,
+    "is_user_whitelist": true,
+    "is_underage_comply": true,
+    "is_underage": true
+  }

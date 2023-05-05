@@ -27,4 +27,49 @@
         "field": "access",
         "type": "string"
     },
+    {
+        "entity": "kyc_user_verbose",
+        "field": "access_modifiers.additionalProp1",
+        "type": "boolean"
+    },
+     {
+        "entity": "kyc_user_verbose",
+        "field": "access_modifiers.additionalProp2",
+        "type": "boolean"
+    },
+     {
+        "entity": "kyc_user_verbose",
+        "field": "access_modifiers.additionalProp3",
+        "type": "boolean"
+    },
+      {
+        "entity": "kyc_user_verbose",
+        "field": "user_challenge",
+        "type": "string"
+    },
+     {
+        "entity": "kyc_user_verbose",
+        "field": "backoffice_challenge",
+        "type": "string"
+    },
+       {
+        "entity": "kyc_user_verbose",
+        "field": "user_in_contingency",
+        "type": "boolean"
+    },
+     {
+        "entity": "kyc_user_verbose",
+        "field": "is_user_whitelist",
+        "type": "boolean"
+    },
+     {
+        "entity": "kyc_user_verbose",
+        "field": "is_underage_comply",
+        "type": "boolean"
+    },
+     {
+        "entity": "kyc_user_verbose",
+        "field": "is_underage",
+        "type": "boolean"
+    },
 ]

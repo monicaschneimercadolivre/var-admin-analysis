@@ -1,0 +1,43 @@
+// variable: return_cost - interna
+// entity:https://internal-api.mercadolibre.com/coverages/charges?responsible_role=seller&flow=return_label&claim_id=5189314450 - coverages
+// retorno:
+
+{
+    "return_cost": {
+        "site_id": null,
+        "currency_id": null,
+        "amount": null,
+        "flow": "return_label",
+        "reference_type": "claim",
+        //"reference_id": 5189314450,
+        //"pack_id": null,
+        //"scoring_execution_id": null,
+        "cost": {
+            "amount": null,
+            "responsible_role": "seller",
+            //"responsible_id": null,
+            "charge": false
+        },
+        "applied": false,
+        "cancelled": false
+    }
+}
+
+//campos selecionados:
+
+{
+    "return_cost": {
+        "site_id": null,
+        "currency_id": null,
+        "amount": null,
+        "flow": "return_label",
+        "reference_type": "claim",
+        "cost": {
+            "amount": null,
+            "responsible_role": "seller",
+            "charge": false
+        },
+        "applied": false,
+        "cancelled": false
+    }
+}

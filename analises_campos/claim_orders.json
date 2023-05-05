@@ -1,0 +1,269 @@
+// variable: is_return_cost_bigger_than_product_cost
+// entity:https://internal-api.mercadolibre.com/v1/claims/5140976039/orders - claim_orders
+// retorno:
+
+
+[
+    {
+        // "id": 2000004019659696,
+        // "date_created": "2022-08-09T21:51:57.000-04:00",
+        // "date_closed": "2022-08-09T21:52:04.000-04:00",
+        // "last_updated": "2022-09-24T12:46:55.000-04:00",
+        // "manufacturing_ending_date": null,
+        // "comment": null,
+        // "pack_id": null,
+        // "pickup_id": null,
+        "order_request": {
+            "return": null,
+            "change": null
+        },
+        "fulfilled": false,
+        //"application_id": "7092",
+        "hidden_for_seller": false,
+        "buying_mode": "buy_equals_pay",
+        "shipping_cost": 0,
+        // "mediations": [
+        //     {
+        //         "id": 5140976039
+        //     }
+        // ],
+        "total_amount": 5663,
+        "paid_amount": 0,
+        "coupon": {
+            //"id": null,
+            "amount": 100
+        },
+        // "expiration_date": "2022-09-06T21:52:04.000-04:00",
+        "order_items": [
+            {
+                "item": {
+                    //"id": "MLM901907317",
+                    //"title": "Samsung Galaxy A52 128 Gb Negro Sorprendente 6 Gb Ram",
+                    "category_id": "MLM1055",
+                    "variation_id": null,
+                    "seller_custom_field": null,
+                    //"seller_sku": "578314",
+                    "variation_attributes": [],
+                    "warranty": "Garantía de fábrica: 12 meses",
+                    "condition": "new",
+                    "global_price": null,
+                    "net_weight": null
+                },
+                "quantity": 1,
+                "requested_quantity": {
+                    "measure": "unit",
+                    "value": 1
+                },
+                "picked_quantity": null,
+                "unit_price": 5663,
+                "full_unit_price": 7699,
+                "currency_id": "MXN",
+                "manufacturing_days": null,
+                "sale_fee": 0,
+                "listing_type_id": "gold_pro",
+                "base_exchange_rate": null,
+                //"base_currency_id": null,
+                //"element_id": null,
+                "bundle": null,
+                "discounts": null
+            }
+        ],
+        "currency_id": "MXN",
+        "payments": [
+            {
+                // "id": 24748473691,
+                // "order_id": 2000004019659696,
+                // "payer_id": 376158106,
+                // "collector": {
+                //     "id": 527927603
+                // },
+                // "card_id": 9032078764,
+                "site_id": "MLM",
+                "reason": "Samsung Galaxy A52 128 Gb Negro Sorprendente 6 Gb Ram",
+                "payment_method_id": "debvisa",
+                "currency_id": "MXN",
+                "installments": 1,
+                // "issuer_id": "158",
+                // "atm_transfer_reference": {
+                //     "company_id": null,
+                //     "transaction_id": null
+                // },
+                // "coupon_id": null,
+                // "activation_uri": null,
+                "operation_type": "regular_payment",
+                "payment_type": "debit_card",
+                "available_actions": [
+                    ""
+                ],
+                "status": "refunded",
+                "status_code": null,
+                "status_detail": "bpp_covered",
+                "transaction_amount": 5663,
+                "transaction_amount_refunded": 5663,
+                "taxes_amount": 0,
+                "shipping_cost": 0,
+                "coupon_amount": 100,
+                "overpaid_amount": 0,
+                "total_paid_amount": 5563,
+                "installment_amount": 5563,
+                // "deferred_period": null,
+                // "date_approved": "2022-08-09T21:52:04.000-04:00",
+                // "authorization_code": "724091",
+                // "transaction_order_id": null,
+                // "date_created": "2022-08-09T21:51:58.000-04:00",
+                // "date_last_modified": "2022-09-24T12:45:54.000-04:00",
+                "marketplace_fee": 0
+            }
+        ],
+        // "shipping": {
+        //     "id": 41575033656
+        // },
+        "status": "cancelled",
+        "status_detail": null,
+        "tags": [
+            "catalog",
+            "delivered",
+            "not_paid"
+        ],
+        "internal_tags": [
+            "invoice_authorized"
+        ],
+        "feedback": {
+            "buyer": null,
+            "seller": null
+        },
+        "context": {
+            "channel": "marketplace",
+            "site": "MLM",
+            "flows": [
+                "catalog"
+            ],
+            // "application": "buyingflow-api",
+            // "product_id": null,
+            // "store_id": null
+        },
+        // "seller": {
+        //     "id": 527927603
+        // },
+        // "buyer": {
+        //     "id": 376158106
+        // },
+        // "taxes": {
+        //     "amount": null,
+        //     "currency_id": null,
+        //     "id": null
+        // },
+        "cancel_detail": {
+            "group": "mediations",
+            "code": "mediations",
+            "description": "Mediations cancel the order",
+            "requested_by": "meli",
+            // "date": "2022-09-24T12:39:47.000-04:00",
+            // "application_id": "2945779824588159"
+        }
+    }
+]
+
+
+//campos selecionados:
+
+[
+    {
+        "order_request": {
+            "return": null,
+            "change": null
+        },
+        "fulfilled": false,
+        "hidden_for_seller": false,
+        "buying_mode": "buy_equals_pay",
+        "shipping_cost": 0,
+        "total_amount": 5663,
+        "paid_amount": 0,
+        "coupon": {
+            "amount": 100
+        },
+        "order_items": [
+            {
+                "item": {
+                    "category_id": "MLM1055",
+                    "variation_id": null,
+                    "seller_custom_field": null,
+                    "variation_attributes": [],
+                    "warranty": "Garantía de fábrica: 12 meses",
+                    "condition": "new",
+                    "global_price": null,
+                    "net_weight": null
+                },
+                "quantity": 1,
+                "requested_quantity": {
+                    "measure": "unit",
+                    "value": 1
+                },
+                "picked_quantity": null,
+                "unit_price": 5663,
+                "full_unit_price": 7699,
+                "currency_id": "MXN",
+                "manufacturing_days": null,
+                "sale_fee": 0,
+                "listing_type_id": "gold_pro",
+                "base_exchange_rate": null,
+                "bundle": null,
+                "discounts": null
+            }
+        ],
+        "currency_id": "MXN",
+        "payments": [
+            {
+                "site_id": "MLM",
+                "reason": "Samsung Galaxy A52 128 Gb Negro Sorprendente 6 Gb Ram",
+                "payment_method_id": "debvisa",
+                "currency_id": "MXN",
+                "installments": 1,
+                "operation_type": "regular_payment",
+                "payment_type": "debit_card",
+                "available_actions": [
+                    ""
+                ],
+                "status": "refunded",
+                "status_code": null,
+                "status_detail": "bpp_covered",
+                "transaction_amount": 5663,
+                "transaction_amount_refunded": 5663,
+                "taxes_amount": 0,
+                "shipping_cost": 0,
+                "coupon_amount": 100,
+                "overpaid_amount": 0,
+                "total_paid_amount": 5563,
+                "installment_amount": 5563,
+                "marketplace_fee": 0
+            }
+        ],
+        "status": "cancelled",
+        "status_detail": null,
+        "tags": [
+            "catalog",
+            "delivered",
+            "not_paid"
+        ],
+        "internal_tags": [
+            "invoice_authorized"
+        ],
+        "feedback": {
+            "buyer": null,
+            "seller": null
+        },
+        "context": {
+            "channel": "marketplace",
+            "site": "MLM",
+            "flows": [
+                "catalog"
+            ],
+        },
+        "cancel_detail": {
+            "group": "mediations",
+            "code": "mediations",
+            "description": "Mediations cancel the order",
+            "requested_by": "meli",
+        }
+    }
+]

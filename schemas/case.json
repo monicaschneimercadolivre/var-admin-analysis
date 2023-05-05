@@ -1,0 +1,76 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "case",
+    "description": "case -- description",
+    "type": "object",
+    "properties": {
+      "origin": {
+        "type": "string",
+        "title": "origin",
+        "description": "origin -- description",
+      },
+      "site_id": {
+        "type": "string",
+        "title": "site_id",
+        "description": "site_id -- description",
+      },
+      "status": {
+        "type": "string",
+        "title": "status",
+        "description": "status -- description",
+      },
+      "user_subject": {
+        "type": "string",
+        "title": "user_subject",
+        "description": "user_subject -- description",
+      },
+      "parent_id": {
+        "type": "null",
+        "title": "parent_id",
+        "description": "parent_id -- description",
+      },
+      "channel": {
+        "type": "string",
+        "title": "channel",
+        "description": "channel -- description",
+      },
+      "current_channel": {
+        "type": "string",
+        "title": "current_channel",
+        "description": "current_channel -- description",
+      },
+      "incoming_channel": {
+        "type": "string",
+        "title": "incoming_channel",
+        "description": "incoming_channel -- description",
+      },
+      "user_segment": {
+        "type": "string",
+        "title": "user_segment",
+        "description": "user_segment -- description",
+      },
+      "bug": {
+        "type": "null",
+        "title": "bug",
+        "description": "bug -- description",
+      },
+      "bug_fix_type": {
+        "type": "null",
+        "title": "bug_fix_type",
+        "description": "bug_fix_type -- description",
+      },
+      "portal_status": {
+        "type": "string",
+        "title": "portal_status",
+        "description": "portal_status -- description",
+      },
+      "tags": {
+        "type": "array",
+        "items": [
+          {
+            "type": "string" //??????
+          }
+        ]
+      }
+    }
+  }

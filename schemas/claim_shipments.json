@@ -1,0 +1,292 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "claim_shipments",
+    "description": "claim_shipments -- description",
+    "type": "array",
+    "items": [
+      {
+        "type": "object",
+        "properties": {
+          "substatus": {
+            "type": "null",
+            "title": "substatus",
+            "description": "substatus -- description"
+          },
+          "origin": {
+            "type": "object",
+            "properties": {
+              "shipping_address": {
+                "type": "object",
+                "properties": {
+                  "geolocation_source": {
+                    "type": "string",
+                    "title": "origin.shipping_address.geolocation_source",
+                    "description": "origin.shipping_address.geolocation_source -- description"
+                  },
+                  "types": {
+                    "type": "array", //???
+                    "items": [
+                      {
+                        "type": "string"
+                      }
+                    ]
+                  },
+                  "agency": {
+                    "type": "object",
+                    "properties": {
+                      "type": {
+                        "type": "null",
+                        "title": "origin.shipping_address.agency.type",
+                        "description": "origin.shipping_address.agency.type -- description"
+                      },
+                      "agency_id": {
+                        "type": "null",
+                        "title": "origin.shipping_address.agency.agency_id",
+                        "description": "origin.shipping_address.agency.agency_id -- description"
+                      }
+                    }
+                  },
+                  "country": {
+                    "type": "object",
+                    "properties": {
+                      "name": {
+                        "type": "string",
+                        "title": "origin.shipping_address.country.name",
+                        "description": "origin.shipping_address.country.name -- description"
+                      }
+                    }
+                  },
+                  "scoring": {
+                    "type": "null",
+                    "title": "origin.shipping_address.scoring",
+                    "description": "origin.shipping_address.scoring -- description"
+                  },
+                  "intersection": {
+                    "type": "null",
+                    "title": "origin.shipping_address.intersection",
+                    "description": "origin.shipping_address.intersection -- description"
+                  }
+                }
+              },
+              "destination": {
+                "type": "object",
+                "properties": {
+                  "type": {
+                    "type": "string",
+                    "title": "origin.destination.type",
+                    "description": "origin.destination.type -- description"
+                  },
+                  "shipping_address": {
+                    "type": "object",
+                    "properties": {
+                      "types": {
+                        "type": "array", //??
+                        "items": [
+                          {
+                            "type": "string"
+                          }
+                        ]
+                      },
+                      "country": {
+                        "type": "object",
+                        "properties": {
+                          "id": {
+                            "type": "string",
+                            "title": "origin.destination.shipping_address.country.id",
+                            "description": "origin.destination.shipping_address.country.id -- description"
+                          },
+                          "name": {
+                            "type": "string",
+                            "title": "origin.destination.shipping_address.country.name",
+                            "description": "origin.destination.shipping_address.country.name -- description"
+                          }
+                        }
+                      },
+                      "scoring": {
+                        "type": "null",
+                        "title": "origin.destination.shipping_address.scoring",
+                        "description": "origin.destination.shipping_address.scoring -- description"
+                      },
+                      "intersection": {
+                        "type": "null",
+                        "title": "origin.destination.shipping_address.intersection",
+                        "description": "origin.destination.shipping_address.intersection -- description"
+                      },
+                      "delivery_preference": {
+                        "type": "string",
+                        "title": "origin.destination.shipping_address.delivery_preference",
+                        "description": "origin.destination.shipping_address.delivery_preference -- description"
+                      }
+                    }
+                  }
+                }
+              },
+              "source": {
+                "type": "object",
+                "properties": {
+                  "site_id": {
+                    "type": "string",
+                    "title": "origin.source.site_id",
+                    "description": "origin.source.site_id -- description"
+                  },
+                  "market_place": {
+                    "type": "string",
+                    "title": "origin.source.market_place",
+                    "description": "origin.source.market_place -- description"
+                  }
+                }
+              },
+              "tags": {
+                "type": "array",
+                "items": [//???
+                  {
+                    "type": "string"
+                  }
+                ]
+              },
+              "declared_value": {
+                "type": "number",
+                "title": "origin.declared_value",
+                "description": "origin.declared_value -- description"
+              },
+              "logistic": {
+                "type": "object",
+                "properties": {
+                  "direction": {
+                    "type": "string",
+                    "title": "origin.logistic.direction",
+                    "description": "origin.logistic.direction -- description"
+                  },
+                  "mode": {
+                    "type": "string",
+                    "title": "origin.logistic.mode",
+                    "description": "origin.logistic.mode -- description"
+                  },
+                  "type": {
+                    "type": "string",
+                    "title": "origin.logistic.type",
+                    "description": "origin.logistic.type -- description"
+                  }
+                }
+              },
+              "sibling": {
+                "type": "object",
+                "properties": {
+                  "reason": {
+                    "type": "null",
+                    "title": "origin.sibling.reason",
+                    "description": "origin.sibling.reason -- description"
+                  },
+                  "source": {
+                    "type": "null",
+                    "title": "origin.sibling.source",
+                    "description": "origin.sibling.source -- description"
+                  }
+                }
+              },
+              "lead_time": {
+                "type": "object",
+                "properties": {
+                  "shipping_method": {
+                    "type": "object",
+                    "properties": {
+                      "name": {
+                        "type": "string",
+                        "title": "origin.lead_time.shipping_method.name",
+                        "description": "origin.lead_time.shipping_method.name -- description"
+                      },
+                      "type": {
+                        "type": "string",
+                        "title": "origin.lead_time.shipping_method.type",
+                        "description": "origin.lead_time.shipping_method.type -- description"
+                      },
+                      "deliver_to": {
+                        "type": "string",
+                        "title": "origin.lead_time.shipping_method.deliver_to",
+                        "description": "origin.lead_time.shipping_method.deliver_to -- description"
+                      }
+                    }
+                  },
+                  "currency_id": {
+                    "type": "string",
+                    "title": "origin.currency_id",
+                    "description": "origin.currency_id -- description"
+                  },
+                  "cost": {
+                    "type": "integer",
+                    "title": "origin.cost",
+                    "description": "origin.cost -- description"
+                  },
+                  "list_cost": {
+                    "type": "integer",
+                    "title": "origin.list_cost",
+                    "description": "origin.list_cost -- description"
+                  },
+                  "cost_type": {
+                    "type": "string",
+                    "title": "origin.cost_type",
+                    "description": "origin.cost_type -- description"
+                  },
+                  "service_id": {
+                    "type": "integer",
+                    "title": "origin.service_id",
+                    "description": "origin.service_id -- description"
+                  },
+                  "delivery_type": {
+                    "type": "string",
+                    "title": "origin.delivery_type",
+                    "description": "origin.delivery_type -- description"
+                  },
+                  "delivery_promise": {
+                    "type": "string",
+                    "title": "origin.delivery_promise",
+                    "description": "origin.delivery_promise -- description"
+                  },
+                  "estimated_delivery_time": {
+                    "type": "object",
+                    "properties": {
+                      "type": {
+                        "type": "string",
+                        "title": "origin.estimated_delivery_time.type",
+                        "description": "origin.estimated_delivery_time.type -- description"
+                      },
+                      "unit": {
+                        "type": "string",
+                        "title": "origin.estimated_delivery_time.unit",
+                        "description": "origin.estimated_delivery_time.unit -- description"
+                      },
+                      "shipping": {
+                        "type": "integer",
+                        "title": "origin.estimated_delivery_time.shipping",
+                        "description": "origin.estimated_delivery_time.shipping -- description"
+                      },
+                      "handling": {
+                        "type": "integer",
+                        "title": "origin.estimated_delivery_time.handling",
+                        "description": "origin.estimated_delivery_time.handling -- description"
+                      },
+                      "schedule": {
+                        "type": "null",
+                        "title": "origin.estimated_delivery_time.schedule",
+                        "description": "origin.estimated_delivery_time.schedule -- description"
+                      }
+                    }
+                  }
+                }
+              },
+              "tracking_method": {
+                "type": "string",
+                "title": "origin.tracking_method",
+                "description": "origin.tracking_method -- description"
+              },
+              "status": {
+                "type": "string",
+                "title": "origin.status",
+                "description": "origin.status -- description"
+              }
+            }
+          }
+        }
+      }
+    ]
+  }

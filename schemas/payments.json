@@ -1,0 +1,354 @@
+
+
+
+  {
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "payments",
+    "description": "payments -- description",
+    "type": "object",
+    "properties": {
+      "acquirer_reconciliation": {
+        "type": "array",
+        "items": {}
+      },
+      "additional_info": {
+        "type": "object",
+        "properties": {
+          "available_balance": {
+            "type": "null",
+            "title": "additional_info.available_balance",
+            "description": "additional_info.available_balance - description"
+          },
+          "nsu_processadora": {
+            "type": "null",
+            "title": "additional_info.nsu_processadora",
+            "description": "additional_info.nsu_processadora - description"
+          }
+        }
+      },
+      "available_actions": {
+        "type": "array",
+        "items": {}
+      },
+      "binary_mode": {
+        "type": "boolean",
+        "title": "binary_mode",
+        "description": "binary_mode - description"
+      },
+      "captured": {
+        "type": "boolean",
+        "title": "captured",
+        "description": "captured - description"
+      },
+      "card": {
+        "type": "object",
+        "properties": {
+          "cardholder": {
+            "type": "object",
+            "properties": {
+              "identification": {
+                "type": "object",
+                "properties": {
+                  "type": {
+                    "type": "null",
+                    "title": "card.cardholder.identification.type",
+                    "description": "card.cardholder.identification.type - description"
+                  }
+                }
+              }
+            }
+          },
+          "expiration_month": {
+            "type": "integer",
+            "title": "card.expiration_month",
+            "description": "card.expiration_month - description"
+          },
+          "expiration_year": {
+            "type": "integer",
+            "title": "card.expiration_year",
+            "description": "card.expiration_year - description"
+          },
+          "first_six_digits": {
+            "type": "string",
+            "title": "card.first_six_digits",
+            "description": "card.first_six_digits - description"
+          },
+          "last_four_digits": {
+            "type": "string",
+            "title": "card.last_four_digits",
+            "description": "card.last_four_digits - description"
+          }
+        }
+      },
+      "charges_details": {
+        "type": "array",
+        "items": {}
+      },
+      "collector_tags": {
+        "type": "array",
+        "items": {}
+      },
+      "contingencies": {
+        "type": "object",
+        "properties": {
+          "list": {
+            "type": "array",
+            "items": {}
+          },
+          "status": {
+            "type": "string",
+            "title": "contingencies.status",
+            "description": "contingencies.status - description"
+          }
+        }
+      },
+      "counter_currency": {
+        "type": "null",
+        "title": "counter_currency",
+        "description": "counter_currency - description"
+      },
+      "coupon_amount": {
+        "type": "integer",
+        "title": "coupon_amount",
+        "description": "coupon_amount - description"
+      },
+      "fee_details": {
+        "type": "array",
+        "items": {}
+      },
+      "financing_group": {
+        "type": "null",
+        "title": "financing_group",
+        "description": "financing_group - description"
+      },
+      "financing_type": {
+        "type": "null",
+        "title": "financing_type",
+        "description": "financing_type - description"
+      },
+      "installments": {
+        "type": "integer",
+        "title": "installments",
+        "description": "installments - description"
+      },
+      "live_mode": {
+        "type": "boolean",
+        "title": "live_mode",
+        "description": "live_mode - description"
+      },
+      "marketplace": {
+        "type": "string",
+        "title": "marketplace",
+        "description": "marketplace - description"
+      },
+      "merchant_number": {
+        "type": "null",
+        "title": "merchant_number",
+        "description": "merchant_number - description"
+      },
+      "money_release_days": {
+        "type": "integer",
+        "title": "money_release_days",
+        "description": "money_release_days - description"
+      },
+      "money_release_status": {
+        "type": "string",
+        "title": "money_release_status",
+        "description": "money_release_status - description"
+      },
+      "operation_type": {
+        "type": "string",
+        "title": "operation_type",
+        "description": "operation_type - description"
+      },
+      "order": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string",
+            "title": "order.type",
+            "description": "order.type - description"
+          }
+        }
+      },
+      "payer_tags": {
+        "type": "array",
+        "items": [
+          {
+            "type": "string",
+            "title": "payer_tags", //?????
+            "description": "payer_tags - description"
+          }
+        ]
+      },
+      "payment_method": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "title": "payment_method.id",
+            "description": "payment_method.id - description"
+          },
+          "type": {
+            "type": "string",
+            "title": "payment_method.type",
+            "description": "payment_method.type - description"
+          }
+        }
+      },
+      "payment_method_id": {
+        "type": "string",
+        "title": "payment_method_id",
+        "description": "payment_method_id - description"
+      },
+      "payment_type_id": {
+        "type": "string",
+        "title": "payment_type_id",
+        "description": "payment_type_id - description"
+      },
+      "point_of_interaction": {
+        "type": "object",
+        "properties": {
+          "business_info": {
+            "type": "object",
+            "properties": {
+              "branch": {
+                "type": "string",
+                "title": "point_of_interaction.business_info.branch",
+                "description": "point_of_interaction.business_info.branch - description"
+              },
+              "sub_unit": {
+                "type": "string",
+                "title": "point_of_interaction.business_info.sub_unit",
+                "description": "point_of_interaction.business_info.sub_unit - description"
+              },
+              "unit": {
+                "type": "string",
+                "title": "point_of_interaction.business_info.unit",
+                "description": "point_of_interaction.business_info.unit - description"
+              }
+            }
+          },
+          "sub_type": {
+            "type": "string",
+            "title": "point_of_interaction.sub_type",
+            "description": "point_of_interaction.sub_type - description"
+          },
+          "transaction_data": {
+            "type": "object",
+            "properties": {
+              "amount_details": {
+                "type": "null",
+                "title": "point_of_interaction.transaction_data.amount_details",
+                "description": "point_of_interaction.transaction_data.amount_details - description"
+              },
+              "transaction_amount_usd": {
+                "type": "integer",
+                "title": "point_of_interaction.transaction_data.transaction_amount_usd",
+                "description": "point_of_interaction.transaction_data.transaction_amount_usd - description"
+              },
+              "transaction_rate_usd": {
+                "type": "null",
+                "title": "point_of_interaction.transaction_data.transaction_rate_usd",
+                "description": "point_of_interaction.transaction_data.transaction_rate_usd - description"
+              }
+            }
+          },
+          "type": {
+            "type": "string",
+            "title": "point_of_interaction.type",
+            "description": "point_of_interaction.type - description"
+          }
+        }
+      },
+      "processing_mode": {
+        "type": "string",
+        "title": "processing_mode",
+        "description": "processing_mode - description"
+      },
+      "refunds": {
+        "type": "array",
+        "items": {}
+      },
+      "shipping_amount": {
+        "type": "integer",
+        "title": "processing_mode",
+        "description": "processing_mode - description"
+      },
+      "site_id": {
+        "type": "string",
+        "title": "site_id",
+        "description": "site_id - description"
+      },
+      "statement_descriptor": {
+        "type": "null",
+        "title": "statement_descriptor",
+        "description": "statement_descriptor - description"
+      },
+      "status": {
+        "type": "string",
+        "title": "status",
+        "description": "status - description"
+      },
+      "status_detail": {
+        "type": "string",
+        "title": "status_detail",
+        "description": "status_detail - description"
+      },
+      "taxes_amount": {
+        "type": "integer",
+        "title": "taxes_amount",
+        "description": "taxes_amount - description"
+      },
+      "transaction_amount": {
+        "type": "integer",
+        "title": "transaction_amount",
+        "description": "transaction_amount - description"
+      },
+      "transaction_amount_refunded": {
+        "type": "integer",
+        "title": "transaction_amount_refunded",
+        "description": "transaction_amount_refunded - description"
+      },
+      "transaction_details": {
+        "type": "object",
+        "properties": {
+          "acquirer_reference": {
+            "type": "null",
+            "title": "transaction_details.acquirer_reference",
+            "description": "transaction_details.acquirer_reference - description"
+          },
+          "financial_institution": {
+            "type": "null",
+            "title": "transaction_details.financial_institution",
+            "description": "transaction_details.financial_institution - description"
+          },
+          "installment_amount": {
+            "type": "integer",
+            "title": "transaction_details.installment_amount",
+            "description": "transaction_details.installment_amount - description"
+          },
+          "net_received_amount": {
+            "type": "integer",
+            "title": "transaction_details.net_received_amount",
+            "description": "transaction_details.net_received_amount - description"
+          },
+          "overpaid_amount": {
+            "type": "integer",
+            "title": "transaction_details.overpaid_amount",
+            "description": "transaction_details.overpaid_amount - description"
+          },
+          "payable_deferral_period": {
+            "type": "null",
+            "title": "transaction_details.payable_deferral_period",
+            "description": "transaction_details.payable_deferral_period - description"
+          },
+          "total_paid_amount": {
+            "type": "integer",
+            "title": "transaction_details.total_paid_amount",
+            "description": "transaction_details.total_paid_amount - description"
+          }
+        }
+      }
+    }
+  }

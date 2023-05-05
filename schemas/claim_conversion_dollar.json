@@ -1,0 +1,33 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "claim_conversion_dollar",
+    "description": "claim_conversion_dollar -- description",
+    "type": "object",
+    "properties": {
+      "ratio": {
+        "type": "number",
+        "title": "ratio",
+        "description": "ratio -- description"
+      },
+      "rate": {
+        "type": "number",
+        "title": "rate",
+        "description": "rate -- description"
+      },
+      "currency_quote": {
+        "type": "string",
+        "title": "currency_quote",
+        "description": "currency_quote -- description"
+      },
+      "currency_base": {
+        "type": "string",
+        "title": "currency_base",
+        "description": "currency_base -- description"
+      },
+      "inv_rate": {
+        "type": "number",
+        "title": "inv_rate",
+        "description": "inv_rate -- description"
+      }
+    }
+  }

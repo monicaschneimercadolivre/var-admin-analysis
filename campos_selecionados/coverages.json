@@ -1,0 +1,76 @@
+//entity, campos, tipos
+//Baseados nos claimId: 5189314450, 5189159413, 5189146632, 5188217926, 5187848047
+
+
+[
+    {
+        "entity": "coverages",
+        "field": "return_cost.site_id",
+        "title": "",
+        "description": "",
+        "type": "string"
+    },
+    {
+        "entity": "coverages",
+        "field": "return_cost.currency_id",
+        "title": "",
+        "description": "",
+        "type": ""
+    },
+    {
+        "entity": "coverages",
+        "field": "return_cost.amount",
+        "title": "",
+        "description": "",
+        "type": ""
+    },
+    {
+        "entity": "coverages",
+        "field": "return_cost.flow",
+        "title": "",
+        "description": "",
+        "type": "string"
+    },
+    {
+        "entity": "coverages",
+        "field": "return_cost.reference_type",
+        "title": "",
+        "description": "",
+        "type": "string"
+    },
+    {
+        "entity": "coverages",
+        "field": "return_cost.cost.amount",
+        "title": "",
+        "description": "",
+        "type": ""
+    },
+    {
+        "entity": "coverages",
+        "field": "return_cost.cost.responsible_role",
+        "title": "",
+        "description": "",
+        "type": "string"
+    },
+    {
+        "entity": "coverages",
+        "field": "return_cost.cost.charge",
+        "title": "",
+        "description": "",
+        "type": "boolean"
+    },
+    {
+        "entity": "coverages",
+        "field": "return_cost.applied",
+        "title": "",
+        "description": "",
+        "type": "boolean"
+    },
+    {
+        "entity": "coverages",
+        "field": "return_cost.cancelled",
+        "title": "",
+        "description": "",
+        "type": "boolean"
+    },
+]

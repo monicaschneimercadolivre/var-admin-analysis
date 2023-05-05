@@ -1,0 +1,418 @@
+
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "claim_orders",
+    "description": "claim_orders -- description",
+    "type": "array",
+    "items": [
+      {
+        "type": "object",
+        "properties": {
+          "order_request": {
+            "type": "object",
+            "properties": {
+              "return": {
+                "type": "null",
+                "title": "order_request.return",
+                "description": "order_request.return - description"
+              },
+              "change": {
+                "type": "null",
+                "title": "order_request.change",
+                "description": "order_request.change - description"
+              }
+            }
+          },
+          "fulfilled": {
+            "type": "boolean",
+            "title": "fulfilled",
+            "description": "fulfilled - description"          
+          },
+          "hidden_for_seller": {
+            "type": "boolean",
+            "title": "hidden_for_seller",
+            "description": "hidden_for_seller - description"
+          },
+          "buying_mode": {
+            "type": "string",
+            "title": "buying_mode",
+            "description": "buying_mode - description"
+          },
+          "shipping_cost": {
+            "type": "integer",
+            "title": "shipping_cost",
+            "description": "shipping_cost - description"
+          },
+          "total_amount": {
+            "type": "integer",
+            "title": "total_amount",
+            "description": "total_amount - description"
+          },
+          "paid_amount": {
+            "type": "integer",
+            "title": "paid_amount",
+            "description": "paid_amount - description"
+          },
+          "coupon": {
+            "type": "object",
+            "properties": {
+              "amount": {
+                "type": "integer",
+                "title": "coupon.amount",
+                "description": "coupon.amount - description"
+              }
+            }
+          },
+          "order_items": { //???
+            "type": "array",
+            "items": [
+              {
+                "type": "object",
+                "properties": {
+                  "item": {
+                    "type": "object",
+                    "properties": {
+                      "category_id": {
+                        "type": "string",
+                        "title": "category_id",
+                        "description": "category_id - description"
+                      },
+                      "variation_id": {
+                        "type": "null",
+                        "title": "variation_id",
+                        "description": "variation_id - description"
+                      },
+                      "seller_custom_field": {
+                        "type": "null",
+                        "title": "seller_custom_field",
+                        "description": "seller_custom_field - description"
+                      },
+                      "variation_attributes": {
+                        "type": "array",
+                        "items": {}
+                      },
+                      "warranty": {
+                        "type": "string",
+                        "title": "warranty",
+                        "description": "warranty - description"
+                      },
+                      "condition": {
+                        "type": "string",
+                        "title": "condition",
+                        "description": "condition - description"
+                      },
+                      "global_price": {
+                        "type": "null",
+                        "title": "global_price",
+                        "description": "global_price - description"
+                      },
+                      "net_weight": {
+                        "type": "null",
+                        "title": "net_weight",
+                        "description": "net_weight - description"
+                      }
+                    }
+                  },
+                  "quantity": {
+                    "type": "integer",
+                    "title": "quantity",
+                    "description": "quantity - description"
+                  },
+                  "requested_quantity": {
+                    "type": "object",
+                    "properties": {
+                      "measure": {
+                        "type": "string",
+                        "title": "measure",
+                        "description": "measure - description"
+                      },
+                      "value": {
+                        "type": "integer",
+                        "title": "value",
+                        "description": "value - description"
+                      }
+                    }
+                  },
+                  "picked_quantity": {
+                    "type": "null",
+                    "title": "picked_quantity",
+                    "description": "picked_quantity - description"
+                  },
+                  "unit_price": {
+                    "type": "integer",
+                    "title": "unit_price",
+                    "description": "unit_price - description"
+                  },
+                  "full_unit_price": {
+                    "type": "integer",
+                    "title": "full_unit_price",
+                    "description": "full_unit_price - description"
+                  },
+                  "currency_id": {
+                    "type": "string",
+                    "title": "currency_id",
+                    "description": "currency_id - description"
+                  },
+                  "manufacturing_days": {
+                    "type": "null",
+                    "title": "manufacturing_days",
+                    "description": "manufacturing_days - description"
+                  },
+                  "sale_fee": {
+                    "type": "integer",
+                    "title": "sale_fee",
+                    "description": "sale_fee - description"
+                  },
+                  "listing_type_id": {
+                    "type": "string",
+                    "title": "listing_type_id",
+                    "description": "listing_type_id - description"
+                  },
+                  "base_exchange_rate": {
+                    "type": "null",
+                    "title": "base_exchange_rate",
+                    "description": "base_exchange_rate - description"
+                  },
+                  "bundle": {
+                    "type": "null",
+                    "title": "bundle",
+                    "description": "bundle - description"
+                  },
+                  "discounts": {
+                    "type": "null",
+                    "title": "discounts",
+                    "description": "discounts - description"
+                  }
+                }
+              }
+            ]
+          },
+          "currency_id": {
+            "type": "string",
+            "title": "currency_id",
+            "description": "currency_id - description"
+          },
+          "payments": {
+            "type": "array", //????
+            "items": [
+              {
+                "type": "object",
+                "properties": {
+                  "site_id": {
+                    "type": "string",
+                    "title": "site_id",
+                    "description": "site_id - description"
+                  },
+                  "reason": {
+                    "type": "string",
+                    "title": "reason",
+                    "description": "reason - description"
+                  },
+                  "payment_method_id": {
+                    "type": "string",
+                    "title": "payment_method_id",
+                    "description": "payment_method_id - description"
+                  },
+                  "currency_id": {
+                    "type": "string",
+                    "title": "currency_id",
+                    "description": "currency_id - description"
+                  },
+                  "installments": {
+                    "type": "integer",
+                    "title": "installments",
+                    "description": "installments - description"
+                  },
+                  "operation_type": {
+                    "type": "string",
+                    "title": "operation_type",
+                    "description": "operation_type - description"
+                  },
+                  "payment_type": {
+                    "type": "string",
+                    "title": "payment_type",
+                    "description": "payment_type - description"
+                  },
+                  "available_actions": {
+                    "type": "array",
+                    "items": [
+                      {
+                        "type": "string",
+                        "title": "available_actions",
+                        "description": "available_actions - description"
+                      }
+                    ]
+                  },
+                  "status": {
+                    "type": "string",
+                    "title": "status",
+                    "description": "status - description"
+                  },
+                  "status_code": {
+                    "type": "null",
+                    "title": "status_code",
+                    "description": "status_code - description"
+                  },
+                  "status_detail": {
+                    "type": "string",
+                    "title": "status_detail",
+                    "description": "status_detail - description"
+                  },
+                  "transaction_amount": {
+                    "type": "integer",
+                    "title": "transaction_amount",
+                    "description": "transaction_amount - description"
+                  },
+                  "transaction_amount_refunded": {
+                    "type": "integer",
+                    "title": "transaction_amount_refunded",
+                    "description": "transaction_amount_refunded - description"
+                  },
+                  "taxes_amount": {
+                    "type": "integer",
+                    "title": "taxes_amount",
+                    "description": "taxes_amount - description"
+                  },
+                  "shipping_cost": {
+                    "type": "integer",
+                    "title": "shipping_cost",
+                    "description": "shipping_cost - description"
+                  },
+                  "coupon_amount": {
+                    "type": "integer",
+                    "title": "coupon_amount",
+                    "description": "coupon_amount - description"
+                  },
+                  "overpaid_amount": {
+                    "type": "integer",
+                    "title": "overpaid_amount",
+                    "description": "overpaid_amount - description"
+                  },
+                  "total_paid_amount": {
+                    "type": "integer",
+                    "title": "total_paid_amount",
+                    "description": "total_paid_amount - description"
+                  },
+                  "installment_amount": {
+                    "type": "integer",
+                    "title": "installment_amount",
+                    "description": "installment_amount - description"
+                  },
+                  "marketplace_fee": {
+                    "type": "integer",
+                    "title": "marketplace_fee",
+                    "description": "marketplace_fee - description"
+                  }
+                }
+              }
+            ]
+          },
+          "status": {
+            "type": "string",
+            "title": "status",
+            "description": "status - description"
+          },
+          "status_detail": {
+            "type": "null",
+            "title": "status_detail",
+            "description": "status_detail - description"
+          },
+          "tags": {
+            "type": "array", //??
+            "items": [
+              {
+                "type": "string",
+                "title": "tags",
+                "description": "tags - description"
+              },
+              {
+                "type": "string",
+                "title": "tags",
+                "description": "tags - description"
+              },
+              {
+                "type": "string",
+                "title": "tags",
+                "description": "tags - description"
+              }
+            ]
+          },
+          "internal_tags": {
+            "type": "array", //????
+            "items": [
+              {
+                "type": "string",
+                "title": "internal_tags",
+                "description": "internal_tags - description"
+              }
+            ]
+          },
+          "feedback": {
+            "type": "object",
+            "properties": {
+              "buyer": {
+                "type": "null",
+                "title": "feedback.buyer",
+                "description": "feedback.buyer - description"
+              },
+              "seller": {
+                "type": "null",
+                "title": "feedback.seller",
+                "description": "feedback.seller - description"
+              }
+            }
+          },
+          "context": {
+            "type": "object",
+            "properties": {
+              "channel": {
+                "type": "string",
+                "title": "context.channel",
+                "description": "context.channel - description"
+              },
+              "site": {
+                "type": "string",
+                "title": "context.site",
+                "description": "context.site - description"
+              },
+              "flows": {
+                "type": "array",//????
+                "items": [
+                  {
+                    "type": "string",
+                    "title": "flows",
+                    "description": "flows - description"
+                  }
+                ]
+              }
+            }
+          },
+          "cancel_detail": {
+            "type": "object",
+            "properties": {
+              "group": {
+                "type": "string",
+                "title": "cancel_detail.group",
+                "description": "cancel_detail.group - description"
+              },
+              "code": {
+                "type": "string",
+                "title": "cancel_detail.code",
+                "description": "cancel_detail.code - description"
+              },
+              "description": {
+                "type": "string",
+                "title": "cancel_detail.description",
+                "description": "cancel_detail.description - description"
+              },
+              "requested_by": {
+                "type": "string",
+                "title": "cancel_detail.requested_by",
+                "description": "cancel_detail.requested_by - description"
+              }
+            }
+          }
+        }
+      }
+    ]
+  }

@@ -1,0 +1,27 @@
+// variable: is_return_cost_bigger_than_product_cost
+// entity:https://internal-api.mercadolibre.com/cx/claims/currency/ratio_dollar?currency_quote=USD&date=2022-10-23 - claim_conversion_dollar
+// retorno:
+
+
+{
+    "ratio": 1.0,
+    "rate": 1.0,
+    "currency_quote": "USD",
+    "currency_base": "USD",
+    "inv_rate": 1.0,
+    // "creation_date": "2023-05-05T13:12:03.542+00:00",
+    // "valid_until": "2023-05-06T13:12:03.542+00:00"
+}
+
+
+{
+    "ratio": 1.0,
+    "rate": 1.0,
+    "currency_quote": "USD",
+    "currency_base": "USD",
+    "inv_rate": 1.0,
+}
+
+
+//VARIÁVEL INTERNA: CLAIM_ORDERS
+

@@ -1,0 +1,68 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "coverages",
+    "description": "coverages -- description",
+    "type": "object",
+    "properties": {
+      "return_cost": {
+        "type": "object",
+        "properties": {
+          "site_id": {
+            "type": "null",
+            "title": "return_cost.site_id",
+            "description": "return_cost.site_id -- description"
+          },
+          "currency_id": {
+            "type": "null",
+            "title": "return_cost.currency_id",
+            "description": "return_cost.currency_id -- description"
+          },
+          "amount": {
+            "type": "null",
+            "title": "return_cost.amount",
+            "description": "return_cost.amount -- description"
+          },
+          "flow": {
+            "type": "string",
+            "title": "return_cost.flow",
+            "description": "return_cost.flow -- description"
+          },
+          "reference_type": {
+            "type": "string",
+            "title": "return_cost.reference_type",
+            "description": "return_cost.reference_type -- description"
+          },
+          "cost": {
+            "type": "object",
+            "properties": {
+              "amount": {
+                "type": "null",
+                "title": "return_cost.cost.amount",
+                "description": "return_cost.cost.amount -- description"
+              },
+              "responsible_role": {
+                "type": "string",
+                "title": "return_cost.cost.responsible_role",
+                "description": "return_cost.cost.responsible_role -- description"
+              },
+              "charge": {
+                "type": "boolean",
+                "title": "return_cost.cost.charge",
+                "description": "return_cost.cost.charge -- description"
+              }
+            }
+          },
+          "applied": {
+            "type": "boolean",
+            "title": "return_cost.applied",
+            "description": "return_cost.applied -- description"
+          },
+          "cancelled": {
+            "type": "boolean",
+            "title": "return_cost.cancelled",
+            "description": "return_cost.cancelled -- description"
+          }
+        }
+      }
+    }
+  }

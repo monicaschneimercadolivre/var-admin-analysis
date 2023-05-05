@@ -2,8 +2,7 @@
 // entity: https://internal-api.mercadopago.com/v1/payments/53830354609 - payments
 // retorno:
 
-{
-    "is_payment_credit_card_starting_407843": {
+ {
         //"acquirer": null,
         "acquirer_reconciliation": [],
         "additional_info": {
@@ -277,13 +276,12 @@
         //"transaction_id": null,
         //"version": 10
     }
-}
+
 
 
 //campos selecionados:
 
-{
-    "is_payment_credit_card_starting_407843": {
+ {
         "acquirer_reconciliation": [],
         "additional_info": {
             "available_balance": null,
@@ -367,6 +365,6 @@
             "total_paid_amount": 149
         },
     }
-}
+
 
 
